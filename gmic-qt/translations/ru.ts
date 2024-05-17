@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!-- Original Russian translation by Alex Mozheiko -->
-
 <!DOCTYPE TS>
 <TS version="2.1" language="ru">
 <context>
@@ -74,7 +71,7 @@
     <message>
         <location filename="../ui/dialogsettings.ui" line="186"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;(Warning: preview may be inaccurate&lt;br/&gt;if checked.)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;(Внимание: предпросмотр может быть неточным&lt;br/&gt;если включено.)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;(Внимание: предпросмотр может быть неточным,&lt;br/&gt;если включено.)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../ui/dialogsettings.ui" line="196"/>
@@ -84,7 +81,7 @@
     <message>
         <location filename="../ui/dialogsettings.ui" line="209"/>
         <source>Use native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать родное диалоговое окно для работы с файлами</translation>
     </message>
     <message>
         <location filename="../ui/dialogsettings.ui" line="216"/>
@@ -99,7 +96,7 @@
     <message>
         <location filename="../ui/dialogsettings.ui" line="239"/>
         <source>Filter sources</source>
-        <translation type="unfinished"></translation>
+        <translation>Источники фильтра</translation>
     </message>
     <message>
         <location filename="../ui/dialogsettings.ui" line="244"/>
@@ -114,7 +111,7 @@
     <message>
         <location filename="../ui/dialogsettings.ui" line="202"/>
         <source>&amp;Use native color dialog</source>
-        <translation>&amp;Использовать родной цвет</translation>
+        <translation>&amp;Использовать родной диалог для работы с цветами</translation>
     </message>
     <message>
         <location filename="../ui/dialogsettings.ui" line="163"/>
@@ -139,7 +136,7 @@
     <message>
         <location filename="../ui/dialogsettings.ui" line="333"/>
         <source>&amp;Ok</source>
-        <translation>&amp;Ok</translation>
+        <translation>&amp;ОК</translation>
     </message>
 </context>
 <context>
@@ -163,7 +160,7 @@
     <message>
         <location filename="../src/DialogSettings.cpp" line="45"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройка</translation>
     </message>
     <message>
         <location filename="../src/DialogSettings.cpp" line="51"/>
@@ -193,7 +190,7 @@
     <message>
         <location filename="../src/DialogSettings.cpp" line="57"/>
         <source>At launch (debug)</source>
-        <translation>При запуске (debug)</translation>
+        <translation>При запуске (отладка)</translation>
     </message>
     <message>
         <location filename="../src/DialogSettings.cpp" line="65"/>
@@ -238,12 +235,12 @@
     <message>
         <location filename="../src/DialogSettings.cpp" line="88"/>
         <source>Check to use Native/OS color dialog, uncheck to use Qt&apos;s</source>
-        <translation>Вкл. для родных/ОС настроек цвета диалогового окна, Выкл. для QT</translation>
+        <translation>Включите для использования родного или установленного в ОС диалога для работы с цветами, отключите для использования параметров QT</translation>
     </message>
     <message>
         <location filename="../src/DialogSettings.cpp" line="90"/>
         <source>Check to use Native/OS file dialog, uncheck to use Qt&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>Включите для использования родного или установленного в ОС диалога для работы с файлами, отключите для использования параметров QT</translation>
     </message>
 </context>
 <context>
@@ -391,7 +388,7 @@
     <message>
         <location filename="../src/HeadlessProcessor.cpp" line="89"/>
         <source>Cannot find filter matching path %1</source>
-        <translation>Фильтр отсутствует на заданном пути %1</translation>
+        <translation>Фильтр отсутствует по заданному пути %1</translation>
     </message>
     <message>
         <location filename="../src/HeadlessProcessor.cpp" line="96"/>
@@ -579,7 +576,7 @@ Cannot retrieve default parameters.
     <message>
         <location filename="../src/MainWindow.cpp" line="237"/>
         <source>Force &amp;quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Принудительный &amp;выход</translation>
     </message>
     <message>
         <location filename="../src/MainWindow.cpp" line="353"/>
@@ -637,7 +634,7 @@ Command: %1</source>
     <message>
         <location filename="../src/MainWindow.cpp" line="885"/>
         <source>[Elapsed time: %1]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Прошло времени: %1]</translation>
     </message>
     <message>
         <location filename="../src/MainWindow.cpp" line="421"/>
@@ -735,12 +732,12 @@ Command found for this path : %3</source>
     <message>
         <location filename="../src/Widgets/ProgressInfoWidget.cpp" line="126"/>
         <source>[Processing 88:00:00.888 | 888.9 GiB]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Обрабатывается 88:00:00.888 | 888.9 ГиБ]</translation>
     </message>
     <message>
         <location filename="../src/Widgets/ProgressInfoWidget.cpp" line="128"/>
         <source>[Processing 88:00:00.888]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Обрабатывается 88:00:00.888]</translation>
     </message>
     <message>
         <location filename="../src/Widgets/ProgressInfoWidget.cpp" line="160"/>
@@ -764,7 +761,7 @@ Command found for this path : %3</source>
     <message>
         <location filename="../src/Widgets/ProgressInfoWindow.cpp" line="49"/>
         <source>G&apos;MIC-Qt Plug-in progression</source>
-        <translation>G&apos;MIC-Qt Прогресс плагина</translation>
+        <translation>Прогресс плагина G&apos;MIC-Qt</translation>
     </message>
     <message>
         <location filename="../src/Widgets/ProgressInfoWindow.cpp" line="141"/>
@@ -800,74 +797,76 @@ Command found for this path : %3</source>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="58"/>
         <source>Move source up</source>
-        <translation type="unfinished"></translation>
+        <translation>Переместить источник вверх</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="60"/>
         <source>Move source down</source>
-        <translation type="unfinished"></translation>
+        <translation>Переместить источник вниз</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="62"/>
         <source>Add local file (dialog)</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить локальный файл (диалог)</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="64"/>
         <source>Reset filter sources</source>
-        <translation type="unfinished"></translation>
+        <translation>Сбросить источники фильтра</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="80"/>
         <source>Macros: $HOME %USERPROFILE% $VERSION</source>
-        <translation type="unfinished"></translation>
+        <translation>Макрос: $HOME %USERPROFILE% $VERSION</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="102"/>
         <source>Environment variables (e.g. %USERPROFILE% or %HOMEDIR%) are substituted in sources.
 VERSION is also a predefined variable that stands for the G&apos;MIC version number (currently %1).</source>
-        <translation type="unfinished"></translation>
+        <translation>Переменные окружения (например, %USERPROFILE% или %HOMEDIR%) заменяются в источниках.
+VERSION также является предварительно определённой переменной, обозначающей номер версии G&apos;MIC (сейчас это %1).</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="82"/>
         <source>Macros: $HOME $VERSION</source>
-        <translation type="unfinished"></translation>
+        <translation>Макрос: $HOME $VERSION</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="53"/>
         <source>Remove source (Delete)</source>
-        <translation type="unfinished"></translation>
+        <translation>Убрать источник (удалить)</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="85"/>
         <source>Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключить</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="86"/>
         <source>Enable without updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить без обновлений</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="87"/>
         <source>Enable with updates (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить с обновлениями (рекомендуется)</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="106"/>
         <source>Environment variables (e.g. $HOME or ${HOME} for your home directory) are substituted in sources.
 VERSION is also a predefined variable that stands for the G&apos;MIC version number (currently %1).</source>
-        <translation type="unfinished"></translation>
+        <translation>Переменные окружения (например, $HOME или ${HOME} для домашнего каталога пользователя) заменяются в источниках.
+VERSION также является предварительно определённой переменной, обозначающей номер версии G&apos;MIC (сейчас это %1).</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="111"/>
         <source>New source</source>
-        <translation type="unfinished"></translation>
+        <translation>Новый источник</translation>
     </message>
     <message>
         <location filename="../src/SourcesWidget.cpp" line="192"/>
         <source>Select a file</source>
-        <translation type="unfinished">Выбрать файл</translation>
+        <translation>Выбрать файл</translation>
     </message>
 </context>
 <context>
@@ -875,7 +874,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../src/Updater.cpp" line="137"/>
         <source>Error downloading %1 (empty file?)</source>
-        <translation>Ошибка скачивания %1 (пустой файл?)</translation>
+        <translation>Ошибка загрузки %1 (пустой файл?)</translation>
     </message>
     <message>
         <location filename="../src/Updater.cpp" line="146"/>
@@ -975,7 +974,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../src/Host/None/jpegqualitydialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>Диалоговое окно</translation>
     </message>
     <message>
         <location filename="../src/Host/None/jpegqualitydialog.ui" line="20"/>
@@ -1006,7 +1005,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../src/Host/None/jpegqualitydialog.ui" line="92"/>
         <source>&amp;Ok</source>
-        <translation>&amp;Ok</translation>
+        <translation>&amp;ОК</translation>
     </message>
 </context>
 <context>
@@ -1037,7 +1036,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../ui/mainwindow.ui" line="176"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Download filter definitions from remote sources&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Скачать определения фильтров из отдалённых ресурсов&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Загрузить определения фильтров с сетевых ресурсов&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="179"/>
@@ -1047,7 +1046,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../ui/mainwindow.ui" line="495"/>
         <source>&amp;Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Настройка...</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="511"/>
@@ -1069,7 +1068,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../ui/mainwindow.ui" line="401"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enable/disable preview&lt;br/&gt;(Ctrl+P)&lt;br/&gt;(right click on preview image for instant swapping)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Включение/выключение предпросмотра&lt;br/&gt;(Ctrl+P)&lt;br/&gt;(ПКМ на предпросмотре для мгновенного переключения)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Включение/отключение предпросмотра&lt;br/&gt;(Ctrl+P)&lt;br/&gt;(ПКМ на предпросмотре для мгновенного переключения)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="404"/>
@@ -1079,7 +1078,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../ui/mainwindow.ui" line="544"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Закрыть</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="557"/>
@@ -1099,7 +1098,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../ui/mainwindow.ui" line="583"/>
         <source>&amp;OK</source>
-        <translation>&amp;Ok</translation>
+        <translation>&amp;ОК</translation>
     </message>
 </context>
 <context>
@@ -1237,27 +1236,27 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../src/Misc.cpp" line="336"/>
         <source>List %1 cannot be merged considering these runs: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Список %1 нельзя объединить, учитывая эти запуски: %2</translation>
     </message>
     <message>
         <location filename="../src/Misc.cpp" line="431"/>
         <source>%1 GiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ГиБ</translation>
     </message>
     <message>
         <location filename="../src/Misc.cpp" line="433"/>
         <source>%1 MiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 МиБ</translation>
     </message>
     <message>
         <location filename="../src/Misc.cpp" line="435"/>
         <source>%1 KiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 КиБ</translation>
     </message>
     <message>
         <location filename="../src/Misc.cpp" line="437"/>
         <source>%1 B</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Б</translation>
     </message>
 </context>
 <context>
@@ -1273,22 +1272,22 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../ui/sourceswidget.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished">GMIC</translation>
+        <translation>GMIC</translation>
     </message>
     <message>
         <location filename="../ui/sourceswidget.ui" line="136"/>
         <source>Official filters:</source>
-        <translation type="unfinished"></translation>
+        <translation>Официальные фильтры:</translation>
     </message>
     <message>
         <location filename="../ui/sourceswidget.ui" line="22"/>
         <source>File / URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл / URL-адрес</translation>
     </message>
     <message>
         <location filename="../ui/sourceswidget.ui" line="32"/>
         <source>Add new</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить новый</translation>
     </message>
     <message>
         <location filename="../ui/sourceswidget.ui" line="39"/>
@@ -1297,12 +1296,12 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
         <location filename="../ui/sourceswidget.ui" line="85"/>
         <location filename="../ui/sourceswidget.ui" line="92"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../ui/sourceswidget.ui" line="118"/>
         <source>Macros: $HOME $VERSION</source>
-        <translation type="unfinished"></translation>
+        <translation>Макрос: $HOME $VERSION</translation>
     </message>
 </context>
 <context>
@@ -1318,7 +1317,7 @@ VERSION is also a predefined variable that stands for the G&apos;MIC version num
     <message>
         <location filename="../src/Host/None/ImageDialog.cpp" line="73"/>
         <source>G&apos;MIC-Qt filter output</source>
-        <translation>G&apos;MIC-Qt результат работы фильтра</translation>
+        <translation>Результат работы фильтра G&apos;MIC-Qt</translation>
     </message>
     <message>
         <location filename="../src/Host/None/ImageDialog.cpp" line="84"/>
